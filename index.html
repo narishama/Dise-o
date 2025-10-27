@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño</title>
+    <link rel="stylesheet" href="css/taller.css">
+</head>
+
+<body>
+    <div class="from-container">
+        <h1>FORMULARIO DE REGISTROS</h1>
+        <h2>><span>Realizado por : </span> <i style="color: rgb red">Jhonatan Guacapiña</i></h2>
+        <form action"#" method="post" enctype="multipart/form-data">
+
+            <label>Nombre completo :</label>
+
+            <input type="text" name="nombre" placeholder="Ingresa tu nombre "><br>
+            <requiered></requiered>
+            <label>Contraseña</label>
+            <input type="text" name="nombre" placeholder="Contraseña"><requiered></requiered><br>
+            <label>correo electronico</label>
+            <input type="text" name="nombre" placeholder="correo electonico ">
+            <requiered></requiered><br>
+            <label>Edad :</label>
+            <input type="text" name="nombre" placeholder="Edad "> <requiered></requiered><br>
+            <label> Telefono :</label>
+            <input type="text" name="nombre" placeholder="Telefono ">
+            <requiered></requiered><br>
+            <label>Genero </label>
+
+            <div class="radio-group"><br>
+                <label><input type="radio" name="genero" value="M"> Masculino</label>
+                <label><input type="radio" name="genero" value="F"> Femenino</label>
+            </div>
+            <label>
+                Intereses :
+            </label><br>
+            <label><input type="checkbox" name="intereses" value="tecnologia ">Tecnologia</label>
+            <label><input type="checkbox" name="intereses" value="tecnologia ">deporte</label>
+            <label><input type="checkbox" name="intereses" value="tecnologia ">arte</label>
+            <label>Subir archivo:</label><br>
+
+            <input type="file" name="foto">
+            <input type="hidden" name="id" value="001"><br>
+
+            <div class="buttons">
+                <input type="submit" value="enviar">
+                <input type="reset" value="borrar">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
